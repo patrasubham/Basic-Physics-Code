@@ -7,6 +7,7 @@ def f(x):
 
 xp=np.linspace(0.0001,1.9999,10000)
 
+#Constant
 a=0.0
 b=2.0
 c=0.0
