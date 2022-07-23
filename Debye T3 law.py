@@ -1,7 +1,11 @@
+# Debye T3 law
+
 import numpy as np
 import matplotlib.pylab as plt
 
+#Taking 5 different values of Temperatures
 t=[50,100,250,480,770]
+#Constants
 p=6.0e28
 V=1.0e-5
 k=1.38e-23
