@@ -46,7 +46,7 @@ for j in range (len(t)):
        # print(b+a)
 
         S=w0*f(x0)+w1*f(x1)+w2*f(x2)+w3*f(x3)+w4*f(x4)
-
+#Formula used to find Specific heat 
         C=9.0*V*p*k*((T/t[j])**3.0)*S
         A[i]=T
         B[i]=C
