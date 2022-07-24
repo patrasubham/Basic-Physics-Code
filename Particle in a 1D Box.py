@@ -24,7 +24,7 @@ plt.title('Wavefunction')
 
 #Probability density 
 fig= plt.subplots()
-plt.plot(x, psi(x,n,L)*psi(x,n,L),linewidth=2.8)
+plt.plot(x, psi(x,n,L)*psi(x,n,L))
 
 plt.xlabel('L')
 plt.ylabel(r'$|\psi_n|^2(x)$')
